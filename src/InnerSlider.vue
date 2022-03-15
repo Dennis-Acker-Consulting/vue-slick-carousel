@@ -298,7 +298,7 @@ export default {
             this.animating = animating
           }, 10),
         )
-        this.$parent.$emit('afterChange', state.currentSlide)
+        this.$parent.$emit('after-change', state.currentSlide)
         // delete this.animationEndCallback
         this.animationEndCallback = undefined
       }, speed)
