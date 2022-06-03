@@ -10162,7 +10162,7 @@ var SliderDots_component = normalizeComponent(
           _this2.animating = animating;
         }, 10));
 
-        _this2.$parent.$emit('afterChange', state.currentSlide); // delete this.animationEndCallback
+        _this2.$parent.$emit('after-change', state.currentSlide); // delete this.animationEndCallback
 
 
         _this2.animationEndCallback = undefined;
